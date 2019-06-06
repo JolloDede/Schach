@@ -10,13 +10,17 @@ public class Feld {
         this.y = y;
 
         if (x % 2 == 0){
-            this.color = Color.Black;
+            if (y % 2 == 0){
+                this.color = Color.Black;
+            }else{
+                this.color = Color.White;
+            }
         }else{
-            this.color = Color.White;
-        }if (y % 2 == 0){
-            this.color = Color.White;
-        }else{
-            this.color = Color.Black;
+            if (y % 2 == 0){
+                this.color = Color.White;
+            }else{
+                this.color = Color.Black;
+            }
         }
     }
 
