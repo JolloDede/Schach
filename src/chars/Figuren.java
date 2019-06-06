@@ -47,6 +47,6 @@ public abstract class Figuren {
         return color;
     }
 
-    public abstract void setFelderBewegen();
+    public abstract void setFelderZumBewegen();
 
 }
